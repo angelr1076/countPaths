@@ -4,7 +4,7 @@
 
 The `countPaths` function computes the number of unique paths from the top-left corner to the bottom-right corner of a grid. In this grid, 'X' represents walls that cannot be passed through, and 'O' represents open spaces where movement is allowed. The function allows movement only to the right or downward.
 
-## Function Signature
+## Function
 
 ```javascript
 const countPaths = (grid, r = 0, c = 0, memo = {}) => {
