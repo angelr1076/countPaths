@@ -45,6 +45,10 @@ const grid = [
 console.log(countPaths(grid)); // Output: 5
 ```
 
+<div style="display:flex;">
+  <img src="./images/gridNTree.png" alt="Grid Image" width="600"/>
+</div>
+
 ## Explanation
 
 1. **Memoization Check:** If the result for the current position (`r, c`) is already computed and stored in `memo`, return the stored result.
